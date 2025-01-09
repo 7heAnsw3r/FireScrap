@@ -1,0 +1,5 @@
+sys
+requests
+BeatifulSoup
+argparse
+signal

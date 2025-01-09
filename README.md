@@ -58,7 +58,7 @@ FireScrap is run from the command line. Here are the available options:
 1. **Scraping a single URL**:
 
 ```bash
-python scraping.py https://www.example.com -l -i
+python fireScrap.py https://www.example.com -l -i
 ```
 
 This command will scrape the website `https://www.example.com` and list all links and images found on the page.
@@ -66,7 +66,7 @@ This command will scrape the website `https://www.example.com` and list all link
 2. **Scraping a list of URLs from a file**:
 
 ```bash
-python scraping.py -a urls.txt -t -he -o output.txt
+python fireScrap.py -a urls.txt -t -he -o output.txt
 ```
 
 This command will read the list of URLs from `urls.txt`, extract all tables and headers, and save the results in `output.txt`.
@@ -74,7 +74,7 @@ This command will read the list of URLs from `urls.txt`, extract all tables and 
 3. **Extract all information from a single URL**:
 
 ```bash
-python scraping.py https://www.example.com -ai
+python fireScrap.py https://www.example.com -ai
 ```
 
 This command will extract all available information (links, images, headers, tables, etc.) from `https://www.example.com`.
@@ -121,7 +121,7 @@ If you want to save the extracted information to a file, you can use the `-o` op
 Example:
 
 ```bash
-python scraping.py https://www.example.com -l -o links.txt
+python fireScrap.py https://www.example.com -l -o links.txt
 ```
 
 This command will save all the links found on the website to `links.txt`.
